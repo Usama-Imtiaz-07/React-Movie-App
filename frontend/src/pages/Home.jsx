@@ -59,7 +59,7 @@ function Home() {
         </button>
       </form>
       <TrendingCarousel />
-
+      <div><h2 className="movies-grid-title">Recommendations</h2></div>
       {error && <div className="error-message">{error}</div>}
 
       {loading ? (

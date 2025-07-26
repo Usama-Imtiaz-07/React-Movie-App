@@ -48,7 +48,7 @@ const TrendingCarousel = () => {
   
   return (
     <article className="trailer-section">
-      <h2 className="trailer-title">Trending Movies</h2>
+      <h2 className="trailer-title">Trending This Week</h2>
         <Swiper
             className="trailer-swiper"
             modules={[EffectCoverflow, Autoplay, Navigation, Pagination]}

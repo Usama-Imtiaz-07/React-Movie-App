@@ -1,8 +1,17 @@
 function MovieDetails() {
-    <section className="movie-header">
-        
+    
 
-    </section>
+
+
+    return(
+        <div className="movie-info">
+            <section className="movie-header">
+                
+
+            </section>
+        </div>
+    )
+
 }
 
 
