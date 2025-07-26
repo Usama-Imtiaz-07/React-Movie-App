@@ -10,9 +10,14 @@ Explore the app in action: [View Live Demo on Vercel](https://react-movie-app-rh
 ## Screenshots
 Below are screenshots highlighting the app’s core features, responsive design, and user-friendly interface, showcasing my skills in React, API integration, and UI/UX design.
 
-### Homepage
+### Homepage 
 ![Homepage](frontend/screenshots/homepage.png)  
-*Displays the homepage (with a dynamic carousel in development and is yet to be uploaded) of trending movies fetched from the TMDB API, styled with Tailwind CSS for a modern, responsive layout.*
+*Displays the homepage of movies fetched from the TMDB API, styled with Tailwind CSS for a modern, responsive layout.*
+
+### Trending Carousel 
+![Carousel](frontend/screenshots/TrendingCarousel.png)  
+*Displays the homepage with a dynamic carousel of trending movies with their trailers fetched from the TMDB API, styled with Tailwind CSS for a modern, responsive layout.*
+
 
 ### Search Functionality
 ![Search Functionality](frontend/screenshots/search-box.png)  
@@ -49,6 +54,7 @@ This project demonstrates my proficiency in:
 
 ## Technologies Used
 - **React.js**: Core library for dynamic, component-based UI.
+- **Swiper.js**: Provides sliding 3d carousel with coverflow effects
 - **React Router**: Enables seamless client-side navigation.
 - **Tailwind CSS**: Utility-first framework for rapid, responsive styling.
 - **TMDB API**: Provides real-time movie data for browsing and search.
