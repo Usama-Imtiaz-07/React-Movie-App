@@ -28,9 +28,9 @@ Below are screenshots highlighting the app’s core features, responsive design,
 *Depicts the favorites page where users can view and manage saved movies, utilizing local storage and React Context API for state management.*
 
 
-### Movie Details Page (In Development)
-![Movie Details Page is currently in development](frontend/screenshots/movie-details.png)  
-*Illustrates a detailed view of a selected movie, including poster, description, and a trailer playback option (in development), highlighting React Router navigation.*
+### Movie Details Page
+![Movie Details Page](frontend/screenshots/movieDetails.png)  
+*Illustrates a detailed view of a selected movie, including poster, description, and a trailer playback, highlighting React Router navigation.*
 
 
 ## Key Features
