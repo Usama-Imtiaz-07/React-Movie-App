@@ -1,6 +1,30 @@
 const API_KEY = "a7d3ffb9d39923453a518cbda23da7c0";
 const BASE_URL = "https://api.themoviedb.org/3";
 
+
+export async function getMovieCast(movieId) {
+  const res = await fetch(`https://api.themoviedb.org/3/movie/${movieId}/credits?api_key=${API_KEY}`);
+  const data = await res.json();
+  return data.cast || [];
+}
+
+export async function getMovieReviews(movieId) {
+  const res = await fetch(`${BASE_URL}/movie/${movieId}/reviews?api_key=${API_KEY}`);
+  const data = await res.json();
+  return data.results || [];
+}
+
+
+// Fetch movie details
+export async function getMovieDetails(id) {
+  const res = await fetch(
+    `${BASE_URL}/movie/${id}?api_key=${API_KEY}&language=en-US`
+  );
+  if (!res.ok) throw new Error("Failed to fetch movie details");
+  return res.json();
+}
+
+
 export const getPopularMovies = async () => {
   const response = await fetch(`${BASE_URL}/movie/popular?api_key=${API_KEY}`);
   const data = await response.json();
